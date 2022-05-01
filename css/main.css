@@ -56,3 +56,182 @@ section {
 .flex-one {
   flex: 1;
 }
+
+.align-center{
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.btn{
+    cursor: default;
+    border: 0;
+    padding: 6px 12px;
+    line-height: 1.4;
+    border-radius: 3px;
+}
+
+.btn-default{
+    color: white;
+    background-color: #faa541;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #364147;
+}
+
+.form-control{
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #0a0a0a;
+    color: #8598a2;
+    line-height: 1.4;
+}
+
+.text-light{
+    font-size: 30px;
+    color: #0a0a0a;
+}
+
+.text-primary{
+    font-size: 16px;
+    color: #364147;
+}
+
+.text-secondary{
+    font-size: 30px;
+    color: #faa541;
+}
+
+.header-nav{
+    border-bottom: solid 1px;
+    border-color: #a0a0a0;
+}
+
+.brand{
+    height: 170px;
+    width: 85px;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.search-button{
+    background-color: #a0a0a0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+}
+
+.search-box{
+    width: 330px;
+    height: 30px;
+    padding: 6px 12px;
+    border: solid 1px #a0a0a0;
+}
+
+.nav-list{
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+
+.nav-list a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.profile{
+    margin-left: auto;
+}
+
+.account{
+    text-align: right;
+    padding: 15px;
+    font: 18px;
+    color: #364147 ;
+}
+
+.account a{
+    font: 14px;
+}
+
+.profile-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.profile-pic img{
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.hero{
+    background-image: url('../img/hero.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.hero div{
+    position: relative;
+    left: -30px;
+}
+
+.hero div h1{
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero div h2{
+    color: #faa541;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero div p{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 10px 0;
+}
+
+.banner{
+    margin: 55px 15px;
+    width: 100%;
+    border-top: 1px solid #a0a0a0;
+    padding: 25px 0;
+
+}
+
+.banner img{
+    width: 250px;
+}
+
+.banner-text{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
